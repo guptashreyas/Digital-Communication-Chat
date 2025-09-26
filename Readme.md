@@ -1,7 +1,7 @@
 # Digital Communication Chat
 
-A simple **two-way chat application** demonstrating the **foundation of digital communication** using Python.  
-This project encodes messages into **binary format**, transmits them over a TCP socket, and decodes them back to text on the receiver side.
+A simple **two-way chat application** built **just for fun** while learning basic networking concepts.  
+This project demonstrates the **foundation of digital communication** using Python: messages are encoded into **binary format**, transmitted over a TCP socket, and decoded back to text on the receiver side.
 
 ---
 
