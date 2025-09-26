@@ -25,39 +25,36 @@ This project encodes messages into **binary format**, transmits them over a TCP 
 ```bash
 git clone https://github.com/<your-username>/Digital-Communication-Chat.git
 cd Digital-Communication-Chat
-
-    Run the server:
-
+```
+2. **Run the server:**
+```bash
 python server.py
-
-    Run the client (in another terminal):
-
+```
+3. **Run the client (in another terminal):**
+```bash
 python client.py
+```
+4. **Start chatting!**
+```
+ Client types a message → sent in binary → server decodes and replies.
+ Server types a reply → sent in binary → client decodes.
+```
 
-    Start chatting!
-
-        Client types a message → sent in binary → server decodes and replies.
-
-        Server types a reply → sent in binary → client decodes.
-
-Example
+## Example
 
 [CLIENT] Enter message: Hello Server
+
 [SERVER] Decoded: Hello Server
+
 [SERVER] Enter reply: Hello Client
+
 [CLIENT] Decoded: Hello Client
 
-Requirements
 
-    Python 3.x
+## License
 
-    No external libraries required
+This project is open-source and available under the MIT License.
 
-License
-
-This project is open-source and available under the MIT License
-
-.
-Author
+## Author
 
 Shreyas Gupta
